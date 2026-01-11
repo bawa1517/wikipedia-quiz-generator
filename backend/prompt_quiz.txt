@@ -1,0 +1,55 @@
+You are an expert educational quiz designer.
+
+Your task is to generate a high-quality multiple-choice quiz strictly based on the provided Wikipedia article content.
+
+IMPORTANT RULES:
+- Use ONLY the information explicitly stated in the article content.
+- Do NOT add external knowledge or assumptions.
+- Every question must be directly answerable from the article.
+- If a fact is unclear or ambiguous, do NOT create a question about it.
+
+Article Title:
+{article_title}
+
+Article Content:
+{article_content}
+
+QUIZ REQUIREMENTS:
+- Generate 5 to 10 questions.
+- Cover important facts, concepts, events, and significance from the article.
+- Distribute difficulty roughly as:
+  - Easy: basic facts
+  - Medium: deeper understanding
+  - Hard: synthesis of ideas (limited)
+
+QUESTION FORMAT:
+Each question MUST include:
+- question: clear and unambiguous
+- options: exactly 4 plausible choices
+- answer: must exactly match one option
+- difficulty: one of "easy", "medium", or "hard"
+- explanation: brief justification grounded in the article
+- section_reference: section name where the answer is found (if applicable)
+
+OPTIONS GUIDELINES:
+- Incorrect options must be plausible and contextually related.
+- Avoid obviously wrong, absurd, or unrelated distractors.
+- Randomize the position of the correct answer.
+
+OUTPUT FORMAT:
+Respond with VALID JSON ONLY.
+Do NOT include explanations, markdown, comments, or additional text.
+
+JSON STRUCTURE:
+{{
+  "quiz": [
+    {{
+      "question": "Question text",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "answer": "Exact matching option",
+      "difficulty": "easy|medium|hard",
+      "explanation": "Short explanation based on the article",
+      "section_reference": "Article section name"
+    }}
+  ]
+}}
