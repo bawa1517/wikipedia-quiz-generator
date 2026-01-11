@@ -40,7 +40,7 @@ A full-stack web application that generates educational multiple-choice quizzes 
 ### 1. Clone the Repository
 
 ```bash
-git clone [<repository-url>](https://github.com/bawa1517/wikipedia-quiz-generator.git)
+git clone https://github.com/bawa1517/wikipedia-quiz-generator.git
 cd wiki-quiz-app
 ```
 
