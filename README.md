@@ -1,6 +1,19 @@
-# 📚 Wikipedia Quiz Generator
+# Wikipedia Quiz Generator
 
 A full-stack web application that generates educational multiple-choice quizzes from Wikipedia articles using AI. Transform any Wikipedia article into an interactive quiz with automatically generated questions, answers, and explanations.
+
+Home:
+<img width="2159" height="1376" alt="image" src="https://github.com/user-attachments/assets/b145a64a-aabe-4acf-99ee-48da3ade9179" />
+
+Generated Quiz:
+<img width="2159" height="1371" alt="image" src="https://github.com/user-attachments/assets/bd6a3670-c1b8-4711-8703-c52b91f7605c" />
+
+Take Quiz:
+<img width="2159" height="1247" alt="image" src="https://github.com/user-attachments/assets/2f639d94-1491-4412-af7b-3a76eea1a278" />
+
+History:
+<img width="2159" height="1248" alt="image" src="https://github.com/user-attachments/assets/e6559134-97c1-4703-9cd3-376cf682698f" />
+
 
 ## ✨ Features
 
@@ -40,7 +53,7 @@ A full-stack web application that generates educational multiple-choice quizzes 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bawa1517/wikipedia-quiz-generator.git
 cd wiki-quiz-app
 ```
 
