@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Generate quizzes automatically from Wikipedia articles using AI">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikipedia Quiz Generator</title>
     <link rel="stylesheet" href="styles.css">
@@ -32,12 +33,12 @@
                     <label for="wiki-url">Wikipedia Article URL</label>
                     <div class="input-group">
                         <input 
-                            type="text" 
+                            type="url" 
                             id="wiki-url" 
-                            placeholder="https://en.wikipedia.org/wiki/Alan_Turing"
-                            
+                            required
+                            placeholder="eg: https://en.wikipedia.org/wiki/Alan_Turing"
                         >
-                        <button id="generate-btn" class="btn-primary">
+                        <button id="generate-btn" class="btn-primary" disabled>
                             <span class="btn-text">Generate Quiz</span>
                             <span class="btn-loader" style="display: none;">⏳ Generating...</span>
                         </button>
